@@ -13,23 +13,23 @@ Leopard	animals/leopard.py	/^class Leopard(animal.Animal):$/;"	c
 __init__	animal.py	/^    def __init__(self, kind):$/;"	m	class:Animal
 __init__	animals/cat.py	/^    def __init__(self):$/;"	m	class:Cat
 __init__	animals/dog.py	/^    def __init__(self):$/;"	m	class:Dog
-__init__	animals/leopard.py	/^    def __init__(self):$/;"	m	class:Leopard
 __init__	animals/sheep.py	/^    def __init__(self):$/;"	m	class:Sheep
+__init__	animals/leopard.py	/^    def __init__(self):$/;"	m	class:Leopard
 __init__	farm.py	/^    def __init__(self):$/;"	m	class:Farm
 add_animal	farm.py	/^    def add_animal(self, animal):$/;"	m	class:Farm
 animal	animal_farm.py	/^import animal$/;"	i
 animal	animals/cat.py	/^import animal$/;"	i
 animal	animals/dog.py	/^import animal$/;"	i
-animal	animals/leopard.py	/^import animal$/;"	i
 animal	animals/sheep.py	/^import animal$/;"	i
+animal	animals/leopard.py	/^import animal$/;"	i
 cat	animal_farm.py	/^from animals import cat$/;"	i
 dog	animal_farm.py	/^from animals import dog$/;"	i
 farm	animal_farm.py	/^import farm$/;"	i
 get_kind	animal.py	/^    def get_kind(self):$/;"	m	class:Animal
 get_kind	animals/cat.py	/^    def get_kind(self):$/;"	m	class:Cat
 get_kind	animals/dog.py	/^    def get_kind(self):$/;"	m	class:Dog
-get_kind	animals/leopard.py	/^    def get_kind(self):$/;"	m	class:Leopard
 get_kind	animals/sheep.py	/^    def get_kind(self):$/;"	m	class:Sheep
+get_kind	animals/leopard.py	/^    def get_kind(self):$/;"	m	class:Leopard
 leopard	animal_farm.py	/^from animals import leopard$/;"	i
 main	animal_farm.py	/^def main(animals):$/;"	f
 make_animal	animal_farm.py	/^def make_animal(kind):$/;"	f
