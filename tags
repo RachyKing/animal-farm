@@ -8,8 +8,8 @@ Animal	animal.py	/^class Animal(object):$/;"	c
 Cat	animals/cat.py	/^class Cat(animal.Animal):$/;"	c
 Dog	animals/dog.py	/^class Dog(animal.Animal):$/;"	c
 Farm	farm.py	/^class Farm(object):$/;"	c
-Leopard	animals/leopard.py	/^class Leopard(animal.Animal):$/;"	c
 Sheep	animals/sheep.py	/^class Sheep(animal.Animal):$/;"	c
+Leopard	animals/leopard.py	/^class Leopard(animal.Animal):$/;"	c
 __init__	animal.py	/^    def __init__(self, kind):$/;"	m	class:Animal
 __init__	animals/cat.py	/^    def __init__(self):$/;"	m	class:Cat
 __init__	animals/dog.py	/^    def __init__(self):$/;"	m	class:Dog
