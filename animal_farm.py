@@ -12,7 +12,7 @@ from animals import leopard
 import animal
 import farm
 
-def create_animal(kind):
+def build_animal(kind):
     """Create an animal class."""
     if kind == 'cat':
         return cat.Cat()
@@ -29,7 +29,7 @@ def create_animal(kind):
 def main(animals):
     animal_farm = farm.Farm()
     for animal_kind in animals:
-        animal_farm.add_animal(create_animal(animal_kind))
+        animal_farm.add_animal(build_animal(animal_kind))
     animal_farm.print_contents()
 
 if __name__ == '__main__':
